@@ -1,0 +1,15 @@
+<h1>{{hr}}</h1>
+
+
+<div id="hr">
+    <ul id="hrItems">
+        <li class="listItems" ng-repeat="l in lists | filter:search">
+          From : {{l.from}}
+           <br>
+           To : {{l.to}}
+           <br>
+           Subject : {{l.subject}}
+           <hr>
+        </li>
+    </ul>
+</div>

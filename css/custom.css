@@ -1,0 +1,76 @@
+#title{
+    text-decoration: none;
+    padding-left : 30px;
+    color : red;
+    
+}
+#inbox{
+    padding-left: 260px;
+    list-style-type: none;
+    
+}
+#hr{
+    padding-left: 260px;
+    
+    
+}
+#hrItems{
+    list-style-type: none;
+}
+#inboxItems{
+    list-style-type: none;
+}
+#navmenu{
+    font-size: 20px;
+    list-style-type: none;
+}
+#labelinput{
+    margin-left: 5px;
+}
+#labelid{
+    font-size: 20px;
+}
+#submit{
+    margin-left: 140px;
+}
+#searchid{
+    text-align: center;
+    margin-top : 0px;
+    margin-left : 150px;
+    width: 580px;
+    height: 30px;
+}
+#searchbtn{
+    height: auto;
+    width: 100px;
+}
+#msgid{
+    background-color: #404040;
+    color: white;
+    width: 585px;
+    height : 30px;
+    padding-bottom: 20px;
+    margin-bottom : -1px;
+}
+.compose{
+    width: 585px;
+    height : 30px; 
+}
+#input{
+   margin-top : -40px; 
+}
+#upper{
+    padding : 20px;
+    background-color: #F1F1F1;
+}
+
+#main{
+    margin-top : -150px;
+    margin-left : 150px;
+    padding-left : 250px;
+    background-color: #F1F1F1;
+}
+.listItems:hover{
+    font-weight: bold;
+    cursor: pointer;
+}

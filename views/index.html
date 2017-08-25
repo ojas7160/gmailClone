@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="../css/custom.css"/>
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/angular-local-storage/0.6.0/angular-local-storage.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/angular-local-storage/0.6.0/angular-local-storage.min.js">
     <script src="../libs/angular.min.js"></script>
     <script src="../libs/angular-route.min.js"></script>
     <script src="../libs/app.js"></script>
@@ -32,12 +34,13 @@
 </div>
 <div id="left">
 <h2><a id="title" ng-href="#/">Gmail</a></h2>
-<ul id="navmenu">
+<ul id="navmenu" ng-model="labelAdd">
     <li><a ng-href="#/inbox">Inbox</a></li>
     <li><a ng-href="#/hr">HR</a></li>
     <li><a ng-href="#/compose">Compose</a></li>
     <li><a ng-href="#/add">Add More</a></li>
     <li><a ng-href="#/exception">Exception</a></li>
+    <li><a ng-href="#/{{label.text}}">{{label.text}}</a></li>
     
 </ul>
 </div>

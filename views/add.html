@@ -2,12 +2,12 @@
 
 <div>
    <label id="labelid">New Label : </label> &nbsp;  &nbsp;
-   <input id="labelinput" type="text" placeholder="Enter label name" size="49">
+   <input id="labelinput" ng-model="labelAdd" type="text" placeholder="Enter label name" size="49">
    <br>
    <br>
-   <Label id="labelid">Description : </Label>&nbsp; &nbsp;
+   <!--<Label id="labelid">Description : </Label>&nbsp; &nbsp;
    <textarea row="4" cols="50" placeholder="Enter desc here..."></textarea>
    <br>
-   <br>
-    <input id="submit" class="btn btn-info" type="submit">
+   <br>-->
+    <input id="submit" ng-click="addLabel()" class="btn btn-info" type="submit">
 </div>

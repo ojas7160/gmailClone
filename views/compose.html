@@ -7,12 +7,12 @@
         <input class="compose" type="email" placeholder="To">
         <br>
         
-        <input class="compose" type="text" placeholder="Subject">
+        <input class="compose" type="text" ng-model="emailSubject" placeholder="Subject">
         <br>
         
          <textarea rows="20" cols="80" placeholder="body"></textarea>
          <br><br>
-         <input type="submit" class="btn btn-info">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         <input ng-click="addEmail()" type="submit" class="btn btn-info">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
          <input type="file"><i class="fa fa-paperclip" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
          <i class="fa fa-font" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
          <i class="fa fa-google" aria-hidden="true"></i>

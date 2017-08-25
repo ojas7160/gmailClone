@@ -5,12 +5,12 @@
     
 }
 #inbox{
-    padding-left: 260px;
+    /*padding-left: 260px;*/
     list-style-type: none;
     
 }
 #hr{
-    padding-left: 260px;
+    /*padding-left: 260px;*/
     
     
 }
@@ -73,4 +73,7 @@
 .listItems:hover{
     font-weight: bold;
     cursor: pointer;
+}
+#hrtable{
+   /* padding-left : -20px;*/
 }

@@ -2,14 +2,23 @@
 
 
 <div id="hr">
-    <ul id="hrItems">
-        <li class="listItems" ng-repeat="l in lists | filter:search">
-          From : {{l.from}}
-           <br>
-           To : {{l.to}}
-           <br>
-           Subject : {{l.subject}}
-           <hr>
-        </li>
-    </ul>
+   
+    <table id="hrtable" class="table">
+    <thead>
+      <tr>
+        <th>From</th>
+        <th>To</th>
+        <th>Subject</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr ng-repeat="l in lists|filter:search">
+        <td>{{l.from}}</td>
+        <td>{{l.to}}</td>
+        <td>{{l.subject}}</td>
+      </tr>
+      
+    </tbody>
+  </table>
+    
 </div>
